@@ -1,0 +1,81 @@
+form.login form.register {
+  max-width: 300px;
+}
+input {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+button {
+  width: 100%;
+  display: block;
+  background-color: #555;
+  border: 0;
+  color: #fff;
+  border-radius: 5px;
+  padding: 7px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+form h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+div.post_page div.post_image {
+  max-height: 300px;
+  display: flex;
+  overflow: hidden;
+}
+div.post_page div.post_image img {
+  object-fit: fill;
+  object-position: center center;
+  width: 100%;
+}
+div.post_page a {
+  color: #333;
+  text-decoration: underline;
+}
+div.post_page h1 {
+  text-align: center;
+  margin: 10px 0 5px;
+}
+div.post_page time {
+  text-align: center;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #aaa;
+}
+div.post_page div.author {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 2rem;
+}
+div.post_page div.content {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+div.edit-row {
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.post_page a.edit-btn {
+  background-color: #333;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  padding: 15px 30px;
+  border-bottom: 5px;
+  text-decoration: none;
+}
+a svg {
+  height: 24px;
+}
